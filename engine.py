@@ -1,7 +1,5 @@
-# %% [code] {"papermill":{"duration":5.783081,"end_time":"2023-09-08T08:14:26.616444","exception":false,"start_time":"2023-09-08T08:14:20.833363","status":"completed"},"tags":[],"execution":{"iopub.status.busy":"2023-09-09T08:43:40.255315Z","iopub.execute_input":"2023-09-09T08:43:40.255849Z","iopub.status.idle":"2023-09-09T08:43:40.283101Z","shell.execute_reply.started":"2023-09-09T08:43:40.255790Z","shell.execute_reply":"2023-09-09T08:43:40.282318Z"}}
-"""
-Contains functions for training and testing a PyTorch model.
-"""
+#contains functions for training and testing a PyTorch model.
+
 import torch
 
 from tqdm.auto import tqdm
