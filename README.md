@@ -5,15 +5,15 @@ Medical image classification is crucial for improving diagnosis and treatment, e
 
 # File descriptions 
 
-## Other
+## *Other*
 - `Project_Report.pdf` is the 25 page report of our study 
-## Notebooks
+## *Notebooks*
 - `classic-ml.ipynb` contains code for preprocessing and classifying the images utilizing classical ML algorithms
 - `data_exploration.ipynb` contains code for the EDA of the dataset
 - `fungi-efficientnet-classification_final.ipynb` contains code for the transfer learning of EfficientNetb0
 - `visiontransformer.ipynb` contains code for the transfer learning of Vision Transformer Base 16
 - `fungivgg16classification.ipynb` contains code for the transfer learning of VGG16
 - `fungi-resnet-classification_final` contains code for the transfer learning of ResNet50
-## Scripts 
+## *Scripts* 
 - `engine.py` contains functions utilized for the training of Pytorch models
 - `helper-functions.py` contains functions mostly used to visualize the results of classification and training tasks.
