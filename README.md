@@ -6,15 +6,19 @@ Medical image classification is crucial for improving diagnosis and treatment, e
 A complete 25-page report of our study can be accessed via the `Project_Report.pdf`. For brevity, we only showcase the most important figures/findings here.
 
 Performance of classic machine learning algorithms on Histogram of Oriented Gradients (HOG) features extracted from images using OpenCV:
+
 ![image](https://github.com/user-attachments/assets/7e60d04d-484e-4c36-98b5-dc6d68daf51a)
 
 Performance of the VGG16, EfficientNetb0, ResNet50 and Vision Transformer pre-trained deep learning architectures, with weight fine-tuning:
+
 ![image](https://github.com/user-attachments/assets/455917c5-36b6-4d87-b864-4178022807d0)
 
 Visualization of Gradients on example microscopy images per deep learning architecture:
+
 ![image](https://github.com/user-attachments/assets/1ee34c04-d35b-4bf1-9f45-f551f6c9ed46)
 
 Final Results:
+
 ![image](https://github.com/user-attachments/assets/edefeacd-e4b8-4d17-8895-0e956bff9224)
 
 Based on our findings we can safely say that Deep Learning models, especially when used in the context of transfer learning, can demonstrate outstanding performance in image classification tasks compared to traditional Machine Learning algorithms. Moreover, the DL models’ generalization ability on unseen data from the same distribution is far superior, having Technical Reporting more than 40% better scores than the best ml classifier. This is in alignment with the existing literature and findings from contemporary research. Another important result of this study is the fact that EfficientNetb0 outperformed all other models, when trained both on the original and the augmented dataset, despite it having less parameters than the other models. This indicates that the multi-objective neural architecture search performed from its authors can be a promising method for the architectural design of neural networks. These findings can be a starting point for further experimentation with different data augmentation strategies as well as model architectures. Hyperparameter tuning, which was not utilized in this study could also help in achieving better scores. Furthermore, taking advantage the results of the explainability methods can also boost overall performance.
