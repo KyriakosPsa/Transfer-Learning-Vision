@@ -3,7 +3,7 @@ Medical image classification is crucial for improving diagnosis and treatment, e
 
 ---
 # Important Results 
-A complete 25-page report of our study can be accessed via the `Project_Report.pdf`. For brevity, we only showcase the most important figures/findings here.
+**A complete 25-page report of our study can be accessed via the `Project_Report.pdf`. For brevity, we only showcase the most important figures/findings here.**
 
 Performance of classic machine learning algorithms on Histogram of Oriented Gradients (HOG) features extracted from images using OpenCV:
 
